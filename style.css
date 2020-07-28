@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+.page-center {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+a.logo-link {
+    font-size: 20px;
+    font-style: italic;
+    color: #fff;
+    font-weight: 800;
+    padding: 8px 30px;
+    background-color: brown;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+}
+
+a.logo-link:hover {
+    background-color: #a5412ab0;
+    box-shadow: 0px 0px 5px 1px #ec7a7a;
+    border: inset;
+}
+
+/* Menu styling */
+.header{
+    background-color: #72656500;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 25px 30px;
+}
+
+.nav li:first-child {
+    padding-left: 0;
+}
+
+.nav li:last-child {
+    padding-right: 0;
+}
+
+.nav ul li a:hover {
+    color: #b4ffc8;
+}
+.nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in;
+}
+
+/* Menu styling ends here */
+
+/* Banner styling */
+.banner {
+    background-color: #b4ffc8;
+    background-image: url('images/banner1.jpg');
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    height: 35rem;
+    min-height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .header-container{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.banner-text{
+    color: beige;
+    font-weight: 900;
+    font-size: 68px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+.banner .header-container h3{
+    color:#ffffff;
+}
+
+.btn_header {
+    font-size: 16px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 7px 32px;
+    width: 200px;
+    background-color: #7c4ea7;
+    font-weight: bold;
+    color: beige;
+    display: inline-block;
+    margin-top: 12px;
+    transition: all 0.2s ease-in;
+}
+.btn_header:hover {
+    color: springgreen;
+    background-color: teal;
+    box-shadow: 2px 2px 5px violet,
+                -2px -2px 5px violet;
+}

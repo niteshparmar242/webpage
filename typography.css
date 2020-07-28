@@ -1,0 +1,237 @@
+@font-face {
+  font-family: 'Alegreya';
+  src: url('fonts/Alegreya-Regular.eot');
+  src: local('fonts/Alegreya Regular'), local('Alegreya-Regular'),
+      url('fonts/Alegreya-Regular.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Alegreya-Regular.woff2') format('woff2'),
+      url('fonts/Alegreya-Regular.woff') format('woff'),
+      url('fonts/Alegreya-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-SemiBold.eot');
+  src: local('fonts/Montserrat SemiBold'), local('Montserrat-SemiBold'),
+      url('fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Montserrat-SemiBold.woff2') format('woff2'),
+      url('fonts/Montserrat-SemiBold.woff') format('woff'),
+      url('fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-Medium.eot');
+  src: local('fonts/Montserrat Medium'), local('Montserrat-Medium'),
+      url('fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Montserrat-Medium.woff2') format('woff2'),
+      url('fonts/Montserrat-Medium.woff') format('woff'),
+      url('fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-Regular.eot');
+  src: local('fonts/Montserrat Regular'), local('Montserrat-Regular'),
+      url('fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Montserrat-Regular.woff2') format('woff2'),
+      url('fonts/Montserrat-Regular.woff') format('woff'),
+      url('fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-ExtraBold.eot');
+  src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+      url('fonts/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+      url('fonts/Montserrat-ExtraBold.woff') format('woff'),
+      url('fonts/Montserrat-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: Alegreya;
+  font-size: 12px;
+  color:#1f1c1c;
+  line-height: 1.75;
+  background-color: #9c9ca7c7;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family:Alegreya;
+}
+
+/* Anchor Links */
+a {
+  color: #101010;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #b31313;
+  text-decoration: none;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  font-family: 'Montserrat';
+  color: #101010;
+  word-break: break-word;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 700;
+}
+
+code {
+  vertical-align: bottom;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+ul li,
+ol li {
+  line-height: 1.5rem;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+blockquote {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 2px solid #A9A9A9;
+  padding-left: 15px;
+}
+
+/* Horizontal Rules */
+hr {
+  color: #ccc;
+  background-color: #ccc;
+  height: 1px;
+  border: none;
+}
+
+/* TODO */
+small {
+
+}
+
+/* TODO */
+mark {
+
+}
+
+sup,
+sub {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+:focus {
+  outline: auto;
+  outline-color: green;
+}
+
+.disable-focus-styles :focus {
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: (font-size* 0.75)px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: calc(font-size*0.6)px;
+  }
+}
